@@ -1,9 +1,16 @@
+#body-homework {
+  height: 100%;
+  background-image: url("https://images.unsplash.com/photo-1633650914200-451329182f0e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1287&q=80");
+  background-size: contain;
+}
+
 h1 {
   color: red;
 }
 img {
   width: 400px;
 }
+
 .thirdDiv {
   padding: 50px;
   border: 1px solid black;
@@ -14,4 +21,51 @@ img {
 .spanId {
   font-size: 18px;
   margin: 50px;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title p {
+  text-align: center;
+  font-size: 18px;
+  padding-left: 10%;
+  padding-right: 10%;
+  color: black;
+  font-weight: bold;
+}
+span {
+  font-size: 22px;
+  color: darkolivegreen;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+#card-section {
+  position: absolute;
+  left: 10%;
+  width: 80%;
+  background: darkgray;
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px gainsboro;
+}
+#profile {
+  height: 200px;
+  position: relative;
+  right: 20px;
+  padding: 5px;
+  border: 5px solid darkolivegreen;
+  width: 200px;
+  border-radius: 50%;
+}
+#img-div {
+  display: flex;
+  justify-content: center;
+}
+#name-cv {
+  font-size: 26px;
+  color: black;
+  font-weight: bold;
+  margin-top: 20px;
 }
